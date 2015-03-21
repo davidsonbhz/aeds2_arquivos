@@ -86,9 +86,6 @@ public class Arquivos {
     }
 
     public static void main(String[] args) throws Exception, DadosIncompletosException {
-        //escrever(" YYYYYYYY ".getBytes(), "/sistema/aeds2/teste", 1000);
-        //anexar("ufop - aeds2 ".getBytes(), "/sistema/aeds2/teste");
-
         Cadastro cad = new Cadastro("/sistema/projetos/aeds2/pacientes");
         
         TPessoa p = new TPessoa();
@@ -97,11 +94,7 @@ public class Arquivos {
         p.setNome("davidson esteves nunes");
         p.setRg(325447);
         
-        
         cad.adicionaPessoa(p);
-        
-        
-        //teste de cadastro 02
         
         
     }
