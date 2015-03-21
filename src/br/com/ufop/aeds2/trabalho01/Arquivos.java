@@ -29,6 +29,8 @@ public class Arquivos {
 
     public static void anexar(byte dados[], String arquivo) {
         //adiciona o texto ao final do arquivo
+        //teste de versionamento 00001
+        
 
     }
 
