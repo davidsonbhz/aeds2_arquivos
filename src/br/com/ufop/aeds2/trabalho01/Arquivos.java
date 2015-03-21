@@ -100,6 +100,10 @@ public class Arquivos {
         
         cad.adicionaPessoa(p);
         
+        
+        //teste de cadastro 02
+        
+        
     }
 
     
